@@ -42,6 +42,7 @@ document.querySelector('.check').addEventListener('click', function () {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
     }
+    //When game going wrong
   } else if (guess !== secretNumber) {
     if (score > 1) {
       // document.querySelector('.message').textContent =
@@ -65,7 +66,7 @@ document.querySelector('.check').addEventListener('click', function () {
   //   } else {
   //     document.querySelector('.message').textContent = 'GAME OVER';
   //   }
-
+  //
   //   // When is too LOW!!!!
   // } else if (guess < secretNumber) {
   //   if (score > 0) {
